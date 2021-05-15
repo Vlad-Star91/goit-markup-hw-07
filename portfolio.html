@@ -21,31 +21,31 @@
     <header class="page-header">
       <div class="container">
         <nav class="nav">
-          <a href="index.html" class="logo">
-            <span class="logo-color">Web</span>Studio
+          <a href="index.html" class="logo page-header__logo">
+            <span class="logo--accent">Web</span>Studio
           </a>
           <ul class="site-nav list">
-            <li class="link-nav">
+            <li class="site-nav__link">
               <a class="link" href="./index.html">Студия</a>
             </li>
-            <li class="link-nav">
+            <li class="site-nav__link">
               <a class="link current" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="link-nav"><a class="link" href="">Контакты</a></li>
+            <li class="site-nav__link"><a class="link" href="">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li class="link-auth">
+          <li class="auth-nav__link">
             <a class="link" href="mailto:info@devstudio.com">
-              <svg class="auth-nav-icon" width="16" height="12">
+              <svg class="auth-nav__icon" width="16" height="12">
                 <use href="./images/icons/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="link-auth">
+          <li class="auth-nav__link">
             <a class="link" href="tel:+380961111111">
-              <svg class="auth-nav-icon" width="10" height="16">
+              <svg class="auth-nav__icon" width="10" height="16">
                 <use href="./images/icons/sprite.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -61,19 +61,19 @@
           <h1 class="our-works">Наши работы</h1>
           <nav>
             <ul class="button-nav list">
-              <li class="btn-item">
+              <li class="button-nav__item">
                 <button type="button" class="button">Все</button>
               </li>
-              <li class="btn-item">
+              <li class="button-nav__item">
                 <button type="button" class="button">Веб-сайты</button>
               </li>
-              <li class="btn-item">
+              <li class="button-nav__item">
                 <button type="button" class="button">Приложения</button>
               </li>
-              <li class="btn-item">
+              <li class="button-nav__item">
                 <button type="button" class="button">Дизайн</button>
               </li>
-              <li class="btn-item">
+              <li class="button-nav__item">
                 <button type="button" class="button">Маркетинг</button>
               </li>
             </ul>
@@ -81,8 +81,8 @@
 
           <!--Галерея работ-->
           <ul class="gallery-list list">
-            <li class="gallery-item">
-              <div class="portfolio-thumb">
+            <li class="gallery-list__item">
+              <div class="gallery-list__thumb">
                 <img
                   src="./images/portfolio/website1.jpg"
                   width="370"
@@ -101,8 +101,8 @@
                 <p class="section-text">Веб-сайт</p>
               </div>
             </li>
-            <li class="gallery-item">
-              <div class="portfolio-thumb">
+            <li class="gallery-list__item">
+              <div class="gallery-list__thumb">
                 <img
                   src="./images/portfolio/poster.jpg"
                   width="370"
@@ -121,8 +121,8 @@
                 <p class="section-text">Дизайн</p>
               </div>
             </li>
-            <li class="gallery-item">
-              <div class="portfolio-thumb">
+            <li class="gallery-list__item">
+              <div class="gallery-list__thumb">
                 <img
                   src="./images/portfolio/reastaurant.jpg"
                   width="370"
@@ -141,8 +141,8 @@
                 <p class="section-text">Приложение</p>
               </div>
             </li>
-            <li class="gallery-item">
-              <div class="portfolio-thumb">
+            <li class="gallery-list__item">
+              <div class="gallery-list__thumb">
                 <img
                   src="./images/portfolio/marketing.jpg"
                   width="370"
@@ -161,8 +161,8 @@
                 <p class="section-text">Маркетинг</p>
               </div>
             </li>
-            <li class="gallery-item">
-              <div class="portfolio-thumb">
+            <li class="gallery-list__item">
+              <div class="gallery-list__thumb">
                 <img
                   src="./images/portfolio/boxes.jpg"
                   width="370"
@@ -181,8 +181,8 @@
                 <p class="section-text">Приложение</p>
               </div>
             </li>
-            <li class="gallery-item">
-              <div class="portfolio-thumb">
+            <li class="gallery-list__item">
+              <div class="gallery-list__thumb">
                 <img
                   src="./images/portfolio/website2.jpg"
                   width="370"
@@ -201,8 +201,8 @@
                 <p class="section-text">Веб-сайт</p>
               </div>
             </li>
-            <li class="gallery-item">
-              <div class="portfolio-thumb">
+            <li class="gallery-list__item">
+              <div class="gallery-list__thumb">
                 <img
                   src="./images/portfolio/magazine.jpg"
                   width="370"
@@ -221,8 +221,8 @@
                 <p class="section-text">Дизайн</p>
               </div>
             </li>
-            <li class="gallery-item">
-              <div class="portfolio-thumb">
+            <li class="gallery-list__item">
+              <div class="gallery-list__thumb">
                 <img
                   src="./images/portfolio/lab.jpg"
                   width="370"
@@ -241,8 +241,8 @@
                 <p class="section-text">Маркетинг</p>
               </div>
             </li>
-            <li class="gallery-item">
-              <div class="portfolio-thumb">
+            <li class="gallery-list__item">
+              <div class="gallery-list__thumb">
                 <img
                   src="./images/portfolio/business.jpg"
                   width="370"
@@ -267,16 +267,15 @@
     </main>
 
     <!--Футер-->
-    <!--Футер-->
     <footer class="section footer">
       <div class="container flex-container">
-        <div class="footer-contacts">
+        <div class="footer__contacts">
           <a href="./index.html" class="logo"
-            ><span class="logo-color">Web</span>Studio
+            ><span class="logo--accent">Web</span>Studio
           </a>
           <address class="address">
             г. Киев, пр-т Леси Украинки, 26 <br />
-            <ul class="auth-nav list">
+            <ul class="auth-navigation list">
               <li>
                 <a class="link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
@@ -288,53 +287,53 @@
             </ul>
           </address>
         </div>
-        <div class="social-links">
+        <div class="join-links">
           <h3 class="section-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
-          <ul class="social-links-list list">
-            <li class="social-links-item">
+          <ul class="join-links__list list">
+            <li class="join-links__item">
               <a
                 href="https://instagram.com"
-                class="social-icons-link"
+                class="join-links__icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social-icons-svg">
+                <svg class="join-links__svg">
                   <use href="./images/icons/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
+            <li class="join-links__item">
               <a
                 href="https://twitter.com"
-                class="social-icons-link"
+                class="join-links__icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social-icons-svg">
+                <svg class="join-links__svg">
                   <use href="./images/icons/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
+            <li class="join-links__item">
               <a
                 href="https://facebook.com"
-                class="social-icons-link"
+                class="join-links__icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social-icons-svg">
+                <svg class="join-links__svg">
                   <use href="./images/icons/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-links-item">
+            <li class="join-links__item">
               <a
                 href="https://linkedin.com"
-                class="social-icons-link"
+                class="join-links__icon"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="social-icons-svg">
+                <svg class="join-links__svg">
                   <use href="./images/icons/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -347,7 +346,7 @@
             name="subscribe_form"
             autocomplete="off"
           >
-            <label class="form-title">
+            <label class="footer-subscribe__title">
               Подпишитесь на рассылку
               <input
                 type="email"
@@ -356,9 +355,9 @@
                 autocomplete="off"
               />
             </label>
-            <button class="subscribe-btn" type="submit">
+            <button class="footer-subscribe__button" type="submit">
               Подписаться
-              <svg class="subscribe-icon">
+              <svg class="footer-subscribe__icon">
                 <use href="./images/icons/sprite.svg#icon-send"></use>
               </svg>
             </button>
