@@ -37,6 +37,12 @@ img {
   list-style: none;
 }
 
+.link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
