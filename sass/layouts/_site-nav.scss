@@ -2,9 +2,14 @@
   display: inline-flex;
 }
 
-.site-nav__link:not(:last-child) {
+.site-nav__link {
   margin-right: 50px;
+
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
+
 .site-nav .link {
   font-family: var(--main-font);
   font-weight: 500;

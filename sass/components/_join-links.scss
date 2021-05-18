@@ -19,8 +19,12 @@
   list-style: none;
 }
 
-.join-links__item:not(:last-child) {
+.join-links__item {
   margin-right: 10px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .join-links__item .join-links__svg {
@@ -45,9 +49,10 @@
   &:focus {
     background-color: var(--accent-color);
   }
-}
-.join-links__item .join-links__icon:hover .join-links__svg,
-.join-links__item .join-links__icon:focus .join-links__svg {
-  fill: var(--alt-title-color);
-  background-color: var(--accent-color);
+
+  .join-links__item &:hover .join-links__svg,
+  .join-links__item &:focus .join-links__svg {
+    fill: var(--alt-title-color);
+    background-color: var(--accent-color);
+  }
 }

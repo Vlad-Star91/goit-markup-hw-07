@@ -3,8 +3,13 @@
   align-items: center;
   justify-content: center;
 }
-.clients-list__item:not(:last-child) {
+
+.clients-list__item {
   margin-right: 30px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients-list__icon {
@@ -31,11 +36,6 @@
   &:focus .clients-list__icon {
     fill: var(--accent-color);
   }
-}
-
-.clients-list__box:hover,
-.clients-list__box:focus {
-  border-color: var(--accent-color);
 }
 
 .clients {
